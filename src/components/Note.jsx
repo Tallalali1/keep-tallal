@@ -1,11 +1,11 @@
 import React from "react";
-const date = new Date();
 
 function Note() {
   return (
-<footer>
-    <p>copyright {date.getFullYear()} </p>
-</footer>
+<div className="note" >
+<h1 >Title</h1>
+    <p >content </p>
+</div>
   );
 }
 
